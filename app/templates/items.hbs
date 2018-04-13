@@ -1,0 +1,20 @@
+<h2>Items View</h2>
+<h3>This is the /app/templates/items.hbs file</h3>
+
+<ul>
+  {{#each model as |item|}}
+    <li>Record #: {{item.id}}</li>
+    <li>Name: {{item.name}}</li>
+    <li>Description: {{item.description}}</li>
+    <li>Category: {{item.category}}</li>
+    <br />
+  {{/each}}
+</ul>
+
+{{!-- {{examples-edit example=model
+                editEntry='saveChange'}} --}}
+{{!-- This line is required to pass data TO the component --}}
+
+{{!-- {{edit example=model}} --}}
+
+{{outlet}}
