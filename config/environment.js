@@ -51,7 +51,7 @@ module.exports = function (environment) {
   if (environment === 'production') {
     ENV.rootURL = '/kaizen-client'
     ENV.locationType = 'hash'
-    ENV.apiHost = 'https://kaizenapi.herokuapp.com/'
+    ENV.apiHost = 'https://kaizenapi.herokuapp.com'
   }
 
   return ENV
