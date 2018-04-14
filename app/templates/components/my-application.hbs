@@ -6,6 +6,8 @@
       <ul class="nav navbar-nav">
         {{#if isAuthenticated}}
         <li>{{#link-to "users"}}Users{{/link-to}}</li>
+        <li>{{#link-to "items"}}View Items{{/link-to}}</li>
+        <li>{{#link-to "create-item"}}Create Item{{/link-to}}</li>
         {{/if}}
       </ul>
       <ul class="nav navbar-nav navbar-right">
