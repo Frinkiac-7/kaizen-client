@@ -14,6 +14,7 @@ Router.map(function () {
   this.route('items')
   this.route('create-item', {path: '/items/create-item'})
   this.route('update-item', {path: '/items/update-item/:item_id'})
+  this.route('delete-item', {path: '/items/delete-item/:item_id'})
 })
 
 export default Router
