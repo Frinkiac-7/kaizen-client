@@ -1,0 +1,29 @@
+import Route from '@ember/routing/route'
+
+export default Route.extend({
+  // model () {
+  //   return this.get('store').createRecord('item', {})
+  // },
+  name: '',
+  description: '',
+  number: 0,
+  category: '',
+  actions: {
+    createNewItem (name, description, price, category) {
+    // createNewItem (model) {
+      const record = {
+        name: name,
+        description: description,
+        price: price,
+        category: category
+      }
+      // console.log('createNewItem invoked')
+      // console.log('model is', model)
+      // console.log('model.name is', model.name)
+      console.log('record is', record)
+      console.log('record.name is', record.name)
+      this.get('store').createRecord('item', record).save()
+      // this.get('store').createRecord('item', model).save()
+    }
+  }
+})
