@@ -23,7 +23,6 @@
 <h2>Create New Menu Item</h2>
 {{!-- {{item=model}} --}}
 <p>name is {{name}}</p>
-<p>name is {{name}}</p>
 <p>description is {{description}}</p>
 <p>price is {{price}}</p>
 <p>category is {{category}}</p>
@@ -34,9 +33,9 @@
     {{input type="text" placeholder="Enter a name" class="form-control" value=name}}
     <label for="itemDescription">Item Description</label>
     {{input type="text" placeholder="Enter a description" class="form-control" value=description}}
-    <label for="Price">Item Price</label>
-    {{input type="number" placeholder="Enter a price" class="form-control" value=price}}
-    <label for="Category">Item Category</label>
+    <label for="itemPrice">Item Price</label>
+    {{input type="number" min="0" step=".01" placeholder="Enter a price" class="form-control" value=price}}
+    <label for="itemCategory">Item Category</label>
     {{input type="text" placeholder="Enter a category" class="form-control" value=category}}
   </div>
   <button type="submit" class="btn btn-default">Submit</button>

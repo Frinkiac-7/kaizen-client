@@ -6,7 +6,7 @@ export default Route.extend({
   // },
   name: '',
   description: '',
-  number: 0,
+  price: 0,
   category: '',
   actions: {
     createNewItem (name, description, price, category) {
@@ -20,8 +20,11 @@ export default Route.extend({
       // console.log('createNewItem invoked')
       // console.log('model is', model)
       // console.log('model.name is', model.name)
+      console.log('price is', price)
       console.log('record is', record)
       console.log('record.name is', record.name)
+      console.log('record.price is', record.price)
+      console.log('record.price is type', typeof record.price)
       this.get('store').createRecord('item', record).save()
       // this.get('store').createRecord('item', model).save()
     }
