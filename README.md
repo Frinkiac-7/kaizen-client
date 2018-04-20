@@ -4,9 +4,9 @@
 
 Kaizen is designed to help small restaurants with limited budgets add online ordering to customers.  This repo contains the front-end app that will be used in conjunction with the backed-end API.
 
-## Features
+## Development Status: On Hold
 
--
+Development on this client began as part of my GA capstone and the Ember framework's potential was an attractive addition to the project.  However, I experienced some struggles getting through Ember's learning curve early on and given the capstone's tight timeline I decided not shelve it for the initial MVP.  Future versions of this app will likely incorporate Ember or similar framework if requirements so dictate.
 
 ## App components
 
@@ -14,23 +14,14 @@ Kaizen is designed to help small restaurants with limited budgets add online ord
 - JavaScript
 - HTML5/CSS & Bootstrap
 
+## Links to deployed version
+`Client`
+- Deployed link:  https://frinkiac-7.github.io/kaizen/
+- Repository link:https://github.com/Frinkiac-7/kaizen/
 
-### Issues and Planned Features
-
-- `Feature: TBD`: To be detailed
-
-## Development Process
-
-Detail to follow.
-
-1) Add `Planning` here
-2) Add `Development milestones` here
-3) Add `Project summary` here
-4) Add `Project lessons learned` here
-
-## Project Story
-
-Detail lessons learned,
+`API`
+- Deployed link:  https://kaizenapi.herokuapp.com/
+- Repository link: https://frinkiac-7.github.io/kaizen-api/
 
 ## [License](LICENSE)
 
